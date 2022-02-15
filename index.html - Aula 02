@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>página inicial</title>
+    <style>
+        #secao-imgs{
+            background-image: url(./Imagens/imagem\ 2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #Artigos{
+            background-color: #c1def0;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #0171b7">
+        <a href="https://www.nba.com/" target="blank">Link da NBA</a>
+        <h3>Tags Semânticas</h3>
+        <nav>
+            <a href="#secao-imgs">Imagens</a>
+            <a href="#secao-artigos">Artigos</a>
+        </nav>
+    </header>
+    <main style="background-color: #f37b53">
+        <section>
+            <h1>Você conhece as tags semânticas?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi enim asperiores maxime. Magnam impedit exercitationem eum. Eius a eos quae, temporibus natus ducimus nemo expedita, culpa esse itaque molestiae tempore.</p>
+        </section>
+        <section id= "secao-imgs">
+            <h2>Imagens BláBláBlá</h2>
+            <img src="./Imagens/imagem 1.jpg" alt="homem aranha" width="40%">
+            <img src="./Imagens/imagem 3.jpg" alt="homem aranha tobey maguire" width="40%">
+        </section>
+        <section id= "secao-artigos">
+            <h2>Artigos sobre Semânticas</h2>
+            <div id="Artigos">
+
+                <article>
+                    <h3>Artigo 1 - Semântica é legal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quo mollitia perspiciatis ad quam. Eum placeat officiis architecto impedit, assumenda, optio eveniet suscipit odit nesciunt ut vel iste dolore non?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima officiis nisi recusandae consectetur? Esse ex excepturi neque earum? Consequatur, nostrum exercitationem cumque officiis fuga magni nemo dignissimos corporis nesciunt! Laboriosam.</p>   
+                </article>
+                <article>
+                    <h3>Artigo 2 - Legal a Semântica</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum voluptatibus voluptas non, similique mollitia, provident quam, qui magnam quisquam reiciendis? Quos labore iste optio itaque doloribus numquam sequi minima.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vero deserunt quaerat eligendi provident! Nisi explicabo aperiam ex distinctio eos blanditiis impedit iure repudiandae totam? Nulla id qui non totam?</p>
+                </article>
+            </div>
+            <aside>
+                <h4>Artigos mais relevantes
+                    <nav>
+                        <ol>
+                            <!-- (li>a)*4 -->
+                            <li><a href="#">Artigo 18 - Hierarquia</a></li>
+                            <li><a href="#">Artigo 3 - Taxonomia</a></li>
+                            <li><a href="#">Artigo 8 - nome da Organização</a></li>
+                        </ol>
+                    </nav>
+                </h4>
+            </aside>
+        </section>
+    </main>
+    <footer style="background-color: #000000;">
+        <p>©Todos os <span style="background-color: aquamarine;"></span> reservados.</p>
+    </footer>
+</body>
+</html>
